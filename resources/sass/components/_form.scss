@@ -1,0 +1,19 @@
+.form-control {
+  &:hover {
+    background: rgba($primary, 5%);
+    border-color: rgba($primary, .5);
+
+    &::placeholder {
+      color: darken($primary, 0);
+    }
+  }
+
+  &:focus {
+    border-color: $primary;
+    background: rgba($primary, 5%);
+
+    &::placeholder {
+      color: darken($primary, 0);
+    }
+  }
+}

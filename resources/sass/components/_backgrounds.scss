@@ -1,0 +1,10 @@
+.bg {
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      @include background-custom($color, $value);
+    }
+    &-dim-#{$color} {
+      @include background-dim($color, $value);
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin background-custom($color-name, $background, $color: $white) {
+  background: $background;
+  color: $color;
+}
+
+@mixin background-dim($color-name, $colors, $background: rgba($colors, .1), $color: $colors) {
+  background: $background;
+  color: $color;
+}

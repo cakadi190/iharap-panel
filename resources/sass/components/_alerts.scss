@@ -1,0 +1,7 @@
+.alert-solid {
+  @each $color, $value in $theme-colors {
+    &.alert-#{$color} {
+      @include alert-solid($value, $value);
+    }
+  }
+}

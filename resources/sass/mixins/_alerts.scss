@@ -1,0 +1,11 @@
+// scss-docs-start alert-variant-mixin
+@mixin alert-solid($background, $border) {
+  color: $white;
+  background: $background;
+  border-color: $border;
+
+  .alert-link {
+    color: $white;
+  }
+}
+// scss-docs-end alert-variant-mixin

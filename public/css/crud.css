@@ -1,0 +1,22 @@
+.dt-bootstrap5 > .row:nth-child(1),
+.dt-bootstrap5 > .row:nth-child(3) {
+  padding: 1rem;
+}
+
+.dt-bootstrap5 > .row:nth-child(1) {
+  flex-direction: row-reverse;
+}
+
+.dt-bootstrap5 > .row:nth-child(1) [class^="col-"]:nth-child(2) .dataTables_filter,
+.dt-bootstrap5 > .row:nth-child(1) [class^="col-"]:nth-child(2)
+{
+  text-align: left !important;
+}
+
+.dt-bootstrap5 .row:nth-child(1) [class^="col-"]:nth-child(1) {
+  text-align: right;
+}
+
+.dt-bootstrap5 table {
+  margin: 0 !important;
+}
